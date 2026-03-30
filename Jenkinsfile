@@ -18,7 +18,7 @@ pipeline {
         stage('SAST - SonarQube') {
             steps {
                 bat """
-                sonar-scanner ^
+                C:\\sonar-scanner\\bin\\sonar-scanner.bat ^
                 -Dsonar.projectKey=secure-bank-app ^
                 -Dsonar.sources=. ^
                 -Dsonar.host.url=http://localhost:9000 ^
