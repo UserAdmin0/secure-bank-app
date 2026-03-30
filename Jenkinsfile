@@ -19,7 +19,7 @@ pipeline {
             steps {
                 bat """
                 C:\\sonar-scanner\\bin\\sonar-scanner.bat ^
-                -Dsonar.projectKey=secure-bank-app ^
+                -Dsonar.projectKey=secure-bank-app-1 ^
                 -Dsonar.sources=. ^
                 -Dsonar.host.url=http://localhost:9000 ^
                 -Dsonar.login=squ_84c54448a1446cce04809465d7fb9aba8647013e
